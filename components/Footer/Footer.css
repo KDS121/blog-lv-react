@@ -1,0 +1,77 @@
+.footer-container {
+  background-color: #1b1c1e;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 2rem;
+  padding: 8% 4%;
+  /* position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%; */
+}
+
+.gallery-footer-container {
+  margin-top: 100px;
+}
+
+.footer-brand-name img {
+  margin-bottom: 12px;
+  width: 200px;
+}
+
+.footer-brand-name h3 {
+  color: white;
+  text-align: left;
+}
+
+.footer-section p {
+  color: white;
+}
+
+.footer-social-media-cards {
+  justify-content: flex-start;
+}
+
+.footer-social-media-card-single {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.footer-social-media-card-icon {
+  width: 40% !important;
+}
+
+.footer-category-container,
+.footer-newsletter-container {
+  margin: 0;
+}
+
+.footer-category-header::after,
+.footer-newsletter-header::after {
+  content: "";
+  background-color: transparent;
+}
+
+.footer-category-header h3,
+.footer-newsletter-header h3 {
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-category-card-single h3,
+.footer-category-card-single p,
+.footer-newsletter-form p {
+  color: #97989b;
+}
+
+.footer-category-card-single {
+  border-color: #323335;
+}
+
+.footer-newsletter-form {
+  border: none;
+  padding: 0;
+}

@@ -1,0 +1,41 @@
+.about-us-container {
+  margin: 30px auto;
+  width: 85%;
+}
+
+.about-us-header {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.about-us-header p {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#about-us-name-first {
+  margin-left: 8px;
+  color: #ee4266;
+}
+
+#about-us-name-second {
+  margin-left: 8px;
+  color: #ffc30b;
+}
+
+.about-us-content p {
+  font-size: 14px;
+}
+
+.about-us-content h3 {
+  font-size: 22px;
+}
+
+.about-us-content img {
+  width: 50%;
+  display: flex;
+  margin: 25px auto;
+  box-shadow: 12vw 0 0 #eeeeee, -12vw 0 0 #eeeeee;
+}

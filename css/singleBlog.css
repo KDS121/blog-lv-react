@@ -1,0 +1,55 @@
+.single-blog-banner {
+  position: relative;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.picsum.photos/id/1066/800/500.jpg?hmac=7duKwz17iAD1QO5sWf_wk0ct7DkTtD929n1f83vyd6k");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.single-blog-banner-text {
+  margin: 0 auto 60px auto;
+  width: 85%;
+  color: whitesmoke;
+}
+
+.single-blog-banner-text h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ee4266;
+  background-color: #000000;
+  width: fit-content;
+  padding: 4px 8px;
+  margin: 0;
+}
+
+.single-blog-banner-text h4 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  width: 80%;
+}
+
+.single-blog-banner-text p {
+  font-size: 12px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 770px) {
+  .single-blog-banner-text h4 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .single-blog-banner-text h4 {
+    font-size: 24px;
+  }
+}

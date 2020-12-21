@@ -1,0 +1,15 @@
+.admin-founder-input-section {
+  display: flex;
+  align-items: center;
+}
+
+.admin-founder-input-section img {
+  width: 40px;
+  margin: 0 12px 12px 0;
+  /* padding: 8px 12px; */
+  outline: none;
+}
+
+.admin-founder-input-section p {
+  margin: 0 12px 12px 0;
+}

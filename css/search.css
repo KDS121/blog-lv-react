@@ -1,0 +1,15 @@
+.search-page-header {
+  width: 85%;
+  margin: 30px auto 0 auto;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.search-page-header strong {
+  color: #ff485a;
+  text-transform: uppercase;
+}
+
+.no-search-result-text {
+}

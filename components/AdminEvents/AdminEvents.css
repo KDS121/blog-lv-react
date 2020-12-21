@@ -1,0 +1,153 @@
+.admin-event-container {
+  width: 90%;
+  /* height: 250px; */
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-event-view-section {
+  width: 72%;
+  height: 100%;
+}
+
+.admin-event-form-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.admin-event-form-section img {
+  width: 40px;
+  height: 40px;
+  margin: 0 12px 12px 0;
+}
+
+.admin-event-text-filed {
+  width: 30%;
+}
+
+.admin-evebt-dropdown {
+  width: 30%;
+}
+
+.admin-event-text-area {
+  margin: 30px 0;
+  border: 1px solid #c4c4c4;
+  width: 50%;
+  outline-color: #3f50b4;
+  padding: 8px;
+  font-family: "Mulish", sans-serif;
+}
+
+.admin-event-image-section {
+  width: 25%;
+  /* background: orange; */
+  height: 350px;
+}
+
+.admin-event-image-container {
+  overflow: auto;
+  position: relative;
+  border: 1px solid #cfcfcf;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 0rem;
+  height: 100%;
+}
+
+.admin-event-image-footer {
+  width: 100%;
+  height: 10%;
+  background: #ee4266;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 8px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.save-blog-btn {
+  margin: 20px 8px 0 0;
+  border: none;
+  background: #ee4266;
+  padding: 8px 12px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.admin-event-existing-image {
+  width: 100%;
+  height: 150px;
+  /* height: 100%; */
+  cursor: pointer;
+  /* margin: 8px 0; */
+  position: relative;
+}
+
+.admin-event-existing-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.admin-event-existing-image p {
+  position: absolute;
+  background: white;
+  top: 4px;
+  right: 4px;
+  margin: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-event-existing-image p:hover {
+  background-color: #ee4266;
+}
+
+.backdrop {
+  z-index: 1300 !important;
+}
+
+.admin-event-text-filed {
+  margin: 0 12px 12px 0 !important;
+  outline: none;
+}
+
+.admin-event-table-icon {
+  cursor: pointer;
+  color: #999999;
+}
+
+.admin-event-table-icon:hover {
+  color: #333333;
+}
+
+.admin-event-table {
+  height: 400px;
+}
+
+.admin-event-table td {
+  padding: 4px 6px;
+  border-bottom: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+}
+
+.admin-event-table th {
+  border-bottom: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  font-weight: bold;
+  background-color: #ee4266;
+  color: white;
+  padding: 6px;
+}
+
+.admin-event-table tr:hover {
+  background: #e7e7e7;
+}

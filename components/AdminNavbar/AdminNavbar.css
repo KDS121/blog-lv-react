@@ -1,0 +1,14 @@
+.navbar-logout-button button {
+  padding: 4px 8px;
+  border: none;
+  background: #ee4266;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-content-list-single {
+  cursor: pointer;
+}

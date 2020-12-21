@@ -1,0 +1,256 @@
+/* .navbar-parent {
+  position: sticky;
+  top: 0;
+  z-index: 120;
+  background-color: white;
+} */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7.5%;
+  border-bottom: 1px solid #cfcfcf;
+  height: 75px;
+  position: sticky;
+  top: 0;
+  z-index: 120;
+  background-color: white;
+}
+
+.navbar-social-media-icons {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 12%;
+}
+
+.navbar-facebook-icon {
+  margin-right: 20px;
+}
+
+.navbar-facebook-icon,
+.navbar-twitter-icon,
+.navbar-instagram-icon,
+.navbar-search-icon,
+.navbar-search-icon-close {
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.navbar-search-icon-close {
+  display: none !important;
+}
+
+.navbar-search-icon-close.open {
+  display: inline-block !important;
+}
+
+.navbar-search-icon.close {
+  display: none !important;
+}
+
+.navbar-menu-icon {
+  margin-right: 8px;
+  display: none !important;
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+/* 
+.navbar-facebook-icon,
+.navbar-twitter-icon,
+.navbar-instagram-icon {
+  margin-right: 20px;
+} */
+
+.navbar-brand-name {
+  width: 100px;
+}
+
+.navbar-brand-name a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+.navbar-brand-name a img {
+  width: 100%;
+}
+
+.navbar-brand-name h3 {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#navbar-brand-name-colored {
+  margin-left: 8px;
+  color: #ee4266;
+  font-weight: bold;
+}
+
+.navbar-search-icon-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 12%;
+  transition: all 0.3s ease-in-out;
+  /* background-color: red; */
+}
+
+.navbar-search-icon-container.open {
+  width: 20%;
+}
+
+.navbar-search-bar-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  width: 10%;
+}
+
+.navbar-search-bar-container.open {
+  border: 2px solid #cfcfcf;
+  width: 100%;
+}
+
+.navbar-search-icon-container input {
+  outline: none;
+  width: 0%;
+  border: none;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  border-radius: 16px;
+}
+
+.navbar-search-icon.close {
+  opacity: 0;
+}
+
+.navbar-search-icon-container input.open {
+  width: 90%;
+  padding: 4px 8px;
+}
+
+/* NAVBAR CONTENT */
+
+.navbar-content-container {
+  border-bottom: 1px solid #cfcfcf;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 75px;
+  z-index: 110;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-content-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  /* width: 60%; */
+  /* background: red; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-content-list a {
+  text-decoration: none;
+  outline: none;
+}
+
+.navbar-content-list-single {
+  /* padding: 4px 8px; */
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333333;
+  margin: 0 20px;
+  text-align: center;
+  /* background: yellow; */
+}
+
+.navbar-content-list-single:hover {
+  color: #ee4266;
+}
+
+.side-bar-list-icon {
+  color: #ee4266;
+}
+
+/* .side-bar-list-icon-movie {
+  color: #ee4266;
+}
+
+.side-bar-list-icon-event {
+  color: #ee4266;
+}
+
+.side-bar-list-icon-gallery {
+  color: #ee4266;
+} */
+
+.navbar-content-search-bar {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  border: 2px solid #cfcfcf;
+  padding: 0 8px;
+}
+
+.navbar-content-search-bar input {
+  width: 90%;
+  border: none;
+  background-color: transparent;
+  padding: 8px 4px;
+  outline: none;
+}
+
+.navbar-content-search-icon {
+  width: 10% !important;
+}
+
+/* MEDIA QUERRIES */
+
+@media only screen and (max-width: 1200px) {
+  .navbar-container {
+    padding: 0 12.5%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-social-media-icons {
+    display: none;
+  }
+  .navbar-content-search-bar {
+    display: flex;
+  }
+  .navbar-search-bar-container {
+    display: none;
+  }
+  .navbar-menu-icon {
+    margin: 0;
+  }
+  .navbar-search-icon-container {
+    justify-content: flex-end;
+  }
+  .navbar-content-list {
+    display: none;
+  }
+  .navbar-menu-icon {
+    display: inline-block !important;
+  }
+  .navbar-container {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}

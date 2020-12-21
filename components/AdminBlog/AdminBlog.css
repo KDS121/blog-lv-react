@@ -1,0 +1,133 @@
+.admin-blog-container {
+  width: 90%;
+  /* height: 250px; */
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-blog-view-section {
+  width: 72%;
+  height: 100%;
+}
+
+.admin-blog-form-quil .ql-toolbar {
+  height: 50px;
+}
+
+.admin-blog-form-quil .ql-container {
+  height: 300px;
+}
+
+.admin-blog-image-section {
+  width: 25%;
+  /* background: orange; */
+  height: 350px;
+}
+
+.admin-blog-image-container {
+  overflow: auto;
+  position: relative;
+  border: 1px solid #cfcfcf;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 0rem;
+  height: 100%;
+}
+
+.admin-blog-image-footer {
+  width: 100%;
+  height: 10%;
+  background: #ee4266;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 8px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.save-blog-btn {
+  margin: 20px 8px 0 0;
+  border: none;
+  background: #ee4266;
+  padding: 8px 12px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.admin-blog-existing-image {
+  width: 100%;
+  height: 150px;
+  /* height: 100%; */
+  cursor: pointer;
+  position: relative;
+  /* margin: 8px 0; */
+}
+
+.admin-blog-existing-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.admin-blog-existing-image p {
+  position: absolute;
+  background: white;
+  top: 4px;
+  right: 4px;
+  margin: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-blog-existing-image p:hover {
+  background-color: #ee4266;
+}
+
+.backdrop {
+  z-index: 1300 !important;
+}
+
+.admin-blog-text-filed {
+  margin: 0 12px 12px 0 !important;
+  padding: 8px 12px;
+  outline: none;
+}
+
+.admin-blog-table-icon {
+  cursor: pointer;
+  color: #999999;
+}
+
+.admin-blog-table-icon:hover {
+  color: #333333;
+}
+
+.admin-blog-table {
+  height: 400px;
+}
+
+.admin-blog-table td {
+  padding: 4px 6px;
+  border-bottom: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+}
+
+.admin-blog-table th {
+  border-bottom: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  font-weight: bold;
+  background-color: #ee4266;
+  color: white;
+  padding: 6px;
+}
+
+.admin-blog-table tr:hover {
+  background: #e7e7e7;
+}

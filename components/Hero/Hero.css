@@ -1,0 +1,132 @@
+.home-hero-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 30px auto;
+  height: 500px;
+}
+
+.home-hero-main-container {
+  width: 69.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-hero-banner-span {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.home-hero-side-banner-span {
+  width: 100%;
+  height: 49.5%;
+  cursor: pointer;
+  position: relative;
+}
+
+#home-banner-1 {
+  height: 100%;
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.home-hero-side-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.home-hero-side-container img,
+.home-hero-main-container img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in-out;
+  filter: brightness(70%);
+  z-index: -1;
+}
+
+.home-hero-banner-span,
+.home-hero-side-banner-span {
+  overflow: hidden;
+}
+
+.home-hero-banner-span:hover img,
+.home-hero-side-banner-span:hover img {
+  transform: scale(1.5);
+  filter: brightness(100%);
+  /* filter: blur(1px); */
+}
+
+.home-hero-banner-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12px;
+  color: white;
+}
+
+#home-hero-banner-text-1 h4 {
+  font-size: 20px;
+}
+
+.home-hero-banner-text h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ee4266;
+  background-color: #000000;
+  width: fit-content;
+  padding: 4px 8px;
+  margin: 0;
+}
+
+.home-hero-banner-text h4 {
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  margin: 10px 0 20px 0;
+}
+
+.home-hero-banner-text p {
+  font-size: 12px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* MEDIA QUERRIES */
+
+@media only screen and (max-width: 1200px) {
+  .home-hero-container {
+    width: 75%;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .home-hero-container {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
+  .home-hero-side-container {
+    width: 100%;
+  }
+  .home-hero-main-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .home-hero-side-banner-span {
+    margin-bottom: 10px;
+  }
+  .home-hero-banner-text h4 {
+    font-size: 20px;
+  }
+}
